@@ -6,7 +6,7 @@ radagast is an open source penetration testing tool, able to perform a web fuzze
 ## Installation
 
 
-### Linux distro
+### local install
 ```bash
 pip install .
  ```
