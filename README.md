@@ -8,15 +8,7 @@ radagast is an open source penetration testing tool, able to perform a web fuzze
 
 ### Linux distro
 ```bash
-pip install -r requirements.txt
- ```
-
-### From virtual env
-```bash
-python3 -m venv sshscan
-source sshscan/bin/activate
-pip install -r requirements.txt
-
+pip install .
  ```
 
 ## Usage
