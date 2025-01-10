@@ -19,7 +19,8 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-if __name__ == '__main__':
+
+def main():
     parser = argparse.ArgumentParser(description="Tiny web fuzzer")
     parser.add_argument("--url", "-u", type=str, default=None, help="Target URL")
     parser.add_argument("--wordlist", "-w", type=str, default=None, help="Specify a wordlist file")
@@ -51,5 +52,8 @@ if __name__ == '__main__':
     else:
         print("Error: you need to specify a wordlist file")
         
-
+        
+        
+if __name__ == '__main__':
+    main()
     
